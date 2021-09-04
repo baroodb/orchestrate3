@@ -11,4 +11,4 @@ def getStarted():
     
 @app.get('/items/{item_id}')
 def getItem(item_id):
-    return {'Response': f'The item you selected costs 20 Euros and a few cents....'}
+    return {'Response': f'The item you selected costs 20 Euros and a few cents....Interested ?'}
